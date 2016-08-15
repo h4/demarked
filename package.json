@@ -1,8 +1,9 @@
 {
   "name": "demarked",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert markdown text into plain text",
   "main": "index.js",
+  "bin": "bin/demarked.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
