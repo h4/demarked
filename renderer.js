@@ -6,6 +6,6 @@ renderer.paragraph = (text) => `${text}\n\n`;
 renderer.list = (body) => `${body}\n`;
 renderer.listitem = (text) => `${text}\n`;
 
-renderer.link = (href, title, text) => `${text} - ${href}`;
+renderer.link = (href, title, text) => `${text} — ${href}`;
 
 module.exports = renderer;
