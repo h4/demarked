@@ -3,12 +3,16 @@
   "version": "0.0.2",
   "description": "Convert markdown text into plain text",
   "main": "index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "bin": "bin/demarked.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mikhail Baranov <mkhl@brnv.ru>",
   "repository": "https://github.com/h4/demarked",
+  "bugs": "https://github.com/h4/demarked/issues",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.9.0",
